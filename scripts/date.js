@@ -1,7 +1,7 @@
-const d = new Date();
-const year = d.getFullYear();
-const fulldate = `${year}`;
-document.querySelector("#dateyear").textContent = fulldate;
+let d = new Date();
+let year = d.getFullYear();
+let fulldate = `${year}`;
+document.querySelector("#year").textContent = fulldate;
 
 let lastmod = new Date(document.lastModified)
-document.querySelector("#lastUpdated").textContent = lastmod;
+document.querySelector("#updated").textContent = lastmod;
