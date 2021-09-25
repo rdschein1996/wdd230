@@ -1,0 +1,54 @@
+body {
+    width: auto;
+    background-color: rgb(202, 240, 238);
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header {
+    height: 150px;
+    width: 98%;
+    border-top-left-radius: 0.35em;
+    border-top-right-radius: 0.35em;
+    background-color: rgb(27, 100, 27);
+}
+  h1 {
+    font-family: "Domine", serif;
+    font-size: 2em;
+    padding: 0.5em;
+    color: white;
+    margin-bottom: 0;
+  }
+  header h2 {
+    font-family: "Domine", serif;
+    font-size: 1.5em;
+    color: white;
+    padding: 0.5em;
+    margin-top: -20px;
+  }
+  img {
+    max-width: 100%;
+    box-shadow: 0 0 10px 0 gray;
+  }
+  main {
+    font-family: "Laila", sans-serif;
+    font-size: 1.2em;
+  }
+  
+  p {
+    padding: 1em;
+    text-align: left;
+  }
+  
+  footer {
+    margin: 0 4em 0;
+    font-family: "Domine", serif;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: rgb(27, 100, 27);
+    color: white;
+  }
+  footer p {
+    text-align: center;
+    padding: 10px;
+  }
