@@ -1,0 +1,15 @@
+@media (min-width: 37em) {
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav ul {
+        font-size:22px;
+    }
+    .logo {
+        width: 500px;
+        height: 150px;
+    }
+
+}
