@@ -1,6 +1,7 @@
-const hambutton = document.querySelector('.menu_icon');
-const mainnav = document.querySelector('.navigation')
+function toggleMenu(){
+    document.getElementById("navigation").classList.toggle("open");
+    document.getElementById("navbutton").classList.toggle("open");
+}
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.getElementById("navbutton");
+x.onclick = toggleMenu;

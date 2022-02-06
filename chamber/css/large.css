@@ -1,4 +1,80 @@
 @media (min-width: 60em) {
+
+    #navbutton {
+        display: none;
+    }
+
+    #chamber-content {
+        display: grid;
+        grid-template-columns: 20em 1fr 20em;
+        margin: 2em 3em 2em 3em;
+        
+    }
+
+    #chamber-content section {
+        display: inline;
+        border: 1px solid rgb(109, 106, 106);
+        padding: 10px;
+        height: 12em;
+        background-color: rgb(202, 202, 202);
+    }
+
+    #spotlights {
+        grid-column: 3/4;
+        grid-row: 1/5;
+        height: auto;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0;
+    }
+
+    #spotlights section {
+        display: inline;
+        border: 1px solid rgb(109, 106, 106);
+        padding: 10px;
+        height: 12em;
+        width: 12em;
+        background-color: rgb(202, 202, 202);
+        margin: auto;
+    }
+
+    #events {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0;
+        height: 10em;
+    }
+
+    #action {
+        grid-column: 2/3;
+        grid-row: 1 / 4;
+        grid-row-end: span 2;
+        margin: 0 .5em .5em .5em;
+    }
+
+    #news {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin: 0 .5em 0 .5em;
+        height: auto;
+    }
+
+    #join {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin: 0;
+        height: 10em;
+    }
+
+    #weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: .5em 0 .5em 0;
+        height: 10em;
+    }
+
     * {
         margin: 0;
         box-sizing: border-box;
@@ -8,5 +84,5 @@
         font-size: 25px;
     }
 
-    
+
 }

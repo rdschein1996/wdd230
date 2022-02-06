@@ -1,5 +1,27 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 30.5em) {
 
+    #chamber-content section {
+        height: 5em;
+        border: 2px solid gray;
+        padding: 1rem;
+        background-color: rgb(226, 223, 223);
+    }
+    #spotlights {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 15em;
+        border: 2px solid gray;
+        padding: 1rem;
+        background-color: rgb(226, 223, 223);
+        margin-bottom: 15px;;
+    }
+    #spotlight1, #spotlight2 {
+        margin: 0;
+    }
+    
+    #join, #spotlight3 {
+        display: none;
+    }
 	nav li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;
@@ -17,8 +39,8 @@
 }
 
 .navigation a:hover {
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: rgb(202, 202, 202);
 }
 
 .responsive li {
@@ -42,6 +64,8 @@ html {
     background-color: whitesmoke;
 }
 
+
+
 main section {
     margin: 1rem;
     padding: 1rem 1rem;
@@ -64,7 +88,7 @@ header,
 footer,
 footer a {
     text-align: center;
-    background-color: #64C5BF;
+    background-color: #5086e9;
     color: whitesmoke;
 }
 
@@ -95,7 +119,7 @@ a:active {
 }
 
 nav {
-    background-color: #64C5BF;
+    background-color: #5086e9;
     width: 98%;
     max-width: 98%;
     margin: auto;
@@ -233,26 +257,3 @@ table td {
 
 }
 
-#news {
-    background-color: rgb(170, 226, 248);
-}
-
-#spotlight1 {
-    background-color: rgb(170, 226, 248);
-}
-
-#spotlight2 {
-    background-color: rgb(170, 226, 248);
-}
-
-#events {
-    background-color: rgb(170, 226, 248);
-}
-
-#weather {
-    background-color: rgb(170, 226, 248);
-}
-
-#action {
-    background-color: rgb(170, 226, 248);
-}
