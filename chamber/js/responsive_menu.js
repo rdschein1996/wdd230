@@ -5,3 +5,11 @@ function toggleMenu(){
 
 const x = document.getElementById("navbutton");
 x.onclick = toggleMenu;
+
+function toggleBanner(){
+    document.getElementById("banner").classList.toggle("open");
+}
+
+if (d.getDay() == 1) {
+    toggleBanner();
+}

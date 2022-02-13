@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rob Schein's WDD 230 Assignments">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -11,50 +12,111 @@
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
-    
+
 
     <title>Chamber</title>
 </head>
 
 <body>
+    <div id="banner">
+        <p>🤝🏼 Join us for the chamber meet and greet on Wednesday at 7:00 p.m.</p>
+    </div>
     <header>
-        <h2>Chamber Home</h2>
-        <img class="logo" src="../images/logo.jpg" alt="Chamber Logo">
-        <br>
-        <p class="currentdate">Today's Date: <span id="today"></span></p>
+        <nav>
+            <a href="index.html"><img class="logo" src="/images/logo.jpg" alt="chamber logo" width="50"></a>
+
+            <p class="commerceTitle">Timbuktu Chamber of Commerce</p>
+
+            <button id="hamBtn"><span>&#9776;</span><span class="close">X</span></button>
+            <ul id="menu">
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a>Discover</a></li>
+                <li><a>Directory</a></li>
+                <li><a>Join</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="http://www.facebook.com"><img class="facebook" src="/images/fb.webp" alt="facebook icon" width="24"
+                    height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="/images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+        <p id="today">todays date</p>
     </header>
     <br>
-    <nav>
-        <button id="navbutton"><span>&#9776;</button>
-        <ul class="navigation">
 
-            <li><a class="menu_icon" href="#">Menu</a></li>
-            <li><a href="../index.html">Portal Home</a></li>
-            <li><a href="/chamber/index.html">Chamber Home</a></li>
-            <li><a href="/chamber/index.html">Placeholder</a></li>
-            <li><a href="/chamber/index.html">Placeholder</a></li>
-            <li><a href="/chamber/index.html">Placeholder</a></li>
-            <li><a href="/chamber/index.html">Placeholder</a></li>
-
-        </ul>
-    </nav>
     <main>
         <div id="chamber-content">
-            <section id="events">events</section>
-            <section id="weather">weather</section>
-            <section id="join">join</section>
-            <section id="action">action/hero</section>
-            <section id="news">news</section>
-        
+            <div id="action">
+                <picture>
+                    <source srcset="/images/wdd230-org.jpg" media="(max-width: 600px)">
+                    <img class="heroImg" src="/images/wdd230-org.jpg" alt="chamber conversation" />
+                </picture>
+                <div class="joinBtn">
+                    <a class="heroBtn" href="#">Join the chamber</a>
+                </div>
+            </div>
+            <div id="events">
+                <h1>Ribbon Cutting</h1>
+                <h2>🔹 The Diamond Shack</h2>
+                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm.</p>
+                <a href="#">More Info...</a>
+            </div>
+            <div id="weather">
+                <h2 class="weather">Weather</h2>
+                <img class="weatherIcon" src="#" alt="">
+                <p class="degree"><span class="temp"></span>&#176;F</p>
+                <p class="iconDesc"></p>
+                <p class="ws">Wind Speed:</p>
+                <p class="windSpeed"></p>
+                <p class="wc">Wind Chill:</p>
+                <p class="wChill"><span class="windChill"></span></p>
+            </div>
+            <div id="news">
+                <h1>News Release</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
             <div id="spotlights">
-                <section id="spotlight1">spotlight1</section>
-                <section id="spotlight2">spotlight2</section>
-                <section id="spotlight3">spotlight3</section>
+                <div id="spotlight1">
+                    <h2> Thankful Transport</h2>
+                    <img src="#" alt="company logo">
+                    <p><em>"We get it there for you"</em></p>
+                    <hr style="width:90%;text-align:center;">
+                    <p>hello@thankfultransport.com</p>
+                    <p>+999-9999-9999 Website</p>
+                </div>
+                <div id="spotlight2">
+                    <h2>Code Primea</h2>
+                    <img src="#" alt="company logo">
+                    <p><em>An after school coding instructional program.</em></p>
+                    <hr style="width:90%;text-align:center;">
+                    <p>contact@codeprimea.com</p>
+                    <p>+999-9999-9999 Website</p>
+                </div>
+                <div id="spotlight3">
+                    <h2>Build a Treefort</h2>
+                    <img src="#" alt="company logo">
+                    <p><em>Over 100 plans</em></p>
+                    <hr style="width:90%;text-align:center;">
+                    <p>builda@treefort.com</p>
+                    <p>+999-9999-9999 Website</p>
+                </div>
 
             </div>
+            <div id="join">
+                <div class="joinUsBtn">
+                    <a class="join" href="#">Join Us!</a>
+                </div>
+                <p>Discover how to join the chamber of commerce and how it wil benfit your organization! </p>
+            </div>
+
 
         </div>
-        
+
     </main>
     <footer>
         <p>&copy; <span id="year"></span> | Rob Schein | Kansas | <a href="http://www.byui.edu/online/"
@@ -66,4 +128,7 @@
     </footer>
 </body>
 <script src="js/responsive_menu.js"></script>
+<script src="js/windchill.js"></script>
+<script src="../js/date.js"></script>
+
 </html>
