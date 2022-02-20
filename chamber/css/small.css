@@ -309,7 +309,50 @@ table td {
 
 }
 
+.discoverInfo{
+    margin: auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.4);
+    padding: 2px 16px;
+    background-color: #bebebe;
+    color: black;
+    text-align: center;
 
+}
+.facts {
+    display: block;
+    margin: 0 0 1em 0;
+    text-align: left;
+    font-size: large;
+}
+.discoverImgDiv {
+    width: 90%;
+    margin: auto;
+    padding: 2px 16px;
+    background-color: #bebebe;
+    text-align: left;
+    color: black;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.4);
+    margin-top: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.discoverImgDiv img {
+    height: 200px;
+    width: 200px;
+    
+}
+.discoverImgDiv p {
+    font-size: large;
+    position: relative;
+}
 
-
+.visit {
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #bebebe;
+    width: 90%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.4);
+}
 

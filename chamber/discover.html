@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rob Schein's WDD 230 Assignments">
+    <link rel="stylesheet" href="../chamber/css/normalize.css">
+    <link rel="stylesheet" href="../chamber/css/small.css">
+    <link rel="stylesheet" href="../chamber/css/medium.css">
+    <link rel="stylesheet" href="../chamber/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+
+
+    <title>Discover</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="../images/logo.jpg " alt= "chamber logo" width="50"></a>
+
+            <p class="commerceTitle">Timbuktu Chamber of Commerce</p>
+
+            <button id="hamBtn"><span>&#9776;</span><span class="close">X</span></button>
+            <ul id="menu">
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a>Discover</a></li>
+                <li><a>Directory</a></li>
+                <li><a>Join</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon"
+                    width="24" height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+        <p id="today">todays date</p>
+    </header>
+    <br>
+    <main>
+        <div class="discoverInfo">
+            <h1>Timbuktu, Mali</h1>
+            <ul class="facts">
+                <li>Settled: 5th Century BC</li>
+                <li>Permanent Settlement: Early 12th Century AD</li>
+                <li>Population: 32,460</li>
+                <li>Elevation: 856 ft</li>
+                <li>Official Language: French, Koyra Chiini</li>
+                <li>Notable Geography: Sahara Desert, Niger River</li>
+                <li>Notable Landmarks: Sankore University, Ben Essayouti Library, Historic Masoleums</li>
+            </ul>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="Sahara Desert">
+            <p>Timbuktu is located in Mali within the Sahara Desert.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="Niger River">
+            <p>Timbuktu lies 12 miles away from the Niger River, a major water source for the city.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="salt trade caravan">
+            <p>A major economic strength of Timbuktu is their salt mining and trading due to proximity to an abundant
+                salt mine in the Taoudenni region in the Sahara.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="tuareg ethnic people">
+            <p>The Tuareg are an indigineous, ethnic group that has populated the area for centuries.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="Sankore University">
+            <p>Sankore University developed into a highly sophisticated education center with the largest collection of
+                books in Africa since the Library of Alexandria. The university brought many scholars from surrounding
+                regions, often times while completing the Hajj, a sacred Islamic journey to Mecca.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="Ben Essayouti Library">
+            <p>A reconstruction project of the Ben Essayouti Library. Similar to Sankore University, Malians in Timbuktu
+                had a high emphasis on learning and teaching and had additional centers of education in the area.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="Malian Manuscripts">
+            <p>A large collection of important, historical manuscripts that have been preserved for centuries. These
+                manuscripts cover a wide range of topics such as art, science, medicine, religion, and philosophy.</p>
+        </div>
+
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="15th/16th Century Masoleums">
+            <p>Ancient masoleums have been restored. Some of these masoleums were built in the 15th and 16th centuries
+                but many buildings date back further.</p>
+        </div>
+        <div class="discoverImgDiv">
+            <img data-src="../images/logo.jpg" alt="French Sudan Territory">
+            <p>Mali was under control of the French from 1893 - 1960 as part of the French Sudan colony. Relations
+                during this time were not as tense as other colony relations were and there were even mandates to end
+                slavery in West Africa by the French in 1905.</p>
+        </div>
+        <p class="visit"><span>Days since last visit: </span><span class="visitor"></span></p>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Rob Schein | Kansas | <a href="http://www.byui.edu/online/"
+                target="_blank">BYU-I Online Learning</a></p><br>
+        <p class="lastupdated">Last Updated: <span id="updated">
+            </span></p>
+        <script src="../js/date.js"></script>
+
+    </footer>
+</body>
+
+<script src="js/responsive_menu.js"></script>
+<script src="js/visit.js"></script>
+<script src="js/lazyload.js"></script>
+
+</html>
