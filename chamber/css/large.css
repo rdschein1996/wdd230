@@ -44,8 +44,7 @@
 
     #chamber-content div {
         display: inline;
-        border: 1px solid rgb(109, 106, 106);
-        padding: 10px;
+        grid-gap: 5px;
         height: 18em;
         background-color: rgb(202, 202, 202);
     }
@@ -98,7 +97,7 @@
     #spotlights {
         grid-column: 3/4;
         grid-row-start: 1;
-
+grid-gap: 5px;
         margin: 0;
         display: grid;
         grid-template-columns: 1fr;
@@ -158,11 +157,12 @@
         grid-row: 1/2;
         margin: 0;
         height: 10em;
+        width: 16em;
     }
 
     #action {
         grid-column-start: 2;
-        margin: 0 .5em .5em .5em;
+        margin: auto;
         width: 75em;
         background-color: white;
 
