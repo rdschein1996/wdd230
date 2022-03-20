@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rob Schein's WDD 230 Assignments">
+    <meta name="description" content="Chamber Content">
     <link rel="stylesheet" href="../chamber/css/normalize.css">
     <link rel="stylesheet" href="../chamber/css/base.css">
     <link rel="stylesheet" href="../chamber/css/small.css">
@@ -15,10 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
 
 
-    <title>Directory</title>
+    <title>Contact</title>
 </head>
 
 <body>
+    <div id="banner">
+        <p>🤝🏼 Join us for the chamber meet and greet on Wednesday at 7:00 p.m.</p>
+    </div>
     <header>
         <nav>
             <a href="index.html"><img class="logo" src="../images/logo.jpg " alt="chamber logo" width="50"></a>
@@ -42,16 +45,43 @@
         <p id="today">todays date</p>
     </header>
     <br>
-    
-    <main class="directory_header">
-        <h1>Business Directory</h1>
-        <div class="view_layouts">
-            <label class="directoryLayout"><input type="image" id="grid" name="grid" src="/images/grid.png"
-                    alt="grid icons layout button" /></label>
-            <label class="directoryLayout"><input type="image" id="list" name="list" src="/images/list.png"
-                    alt="list layout button" /></label>
+
+    <main>
+        <div id="contact">
+
+            <aside id="contact-info">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <p>18103 W 106th St #100 <br> Olathe, KS 66061</p>
+                <h3>Phone</h3>
+                <p>(913) 764-1050</p>
+                <h3>Email</h3>
+                <p>contact@olathechamber.com</p>
+                <br>
+                <hr style="width:70%;text-align:left;margin-left: 0;">
+                <br>
+                <div class="hours">
+                    <h3>Hours of Operation</h3>
+                    <p>Monday to Friday: 9:00 a.m. to 5:00 p.m.</p>
+                    <p>Saturday & Sunday: Closed</p>
+                </div>
+
+
+
+            </aside>
+            <form id="contact-form" method="get" action="contactthanks.html">
+                <fieldset>
+                    <legend>Ask a Question:</legend>
+                    <label class="info">Name* <input type="text" name="fullname" placeholder="John Doe"
+                            required></label>
+                    <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="info">Phone* <input type="tel" name="phone" placeholder="12355551234" required></label>
+                    <label class="info">Questions/Concerns/Comments<textarea name="description"
+                            placeholder="We want to hear from you"></textarea></label>
+                </fieldset>
+                <label class="csubmit"><input type="submit" value="Send" class="submitBtn"></label>
         </div>
-        <div class="directory"></div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> | Rob Schein | Kansas | <a href="http://www.byui.edu/online/"
@@ -62,9 +92,8 @@
 
     </footer>
 </body>
-
 <script src="js/responsive_menu.js"></script>
-    <script src="js/directory.js"></script>
-    
+<script src="js/windchill.js"></script>
+<script src="../js/date.js"></script>
 
 </html>

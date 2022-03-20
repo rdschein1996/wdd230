@@ -1,15 +1,7 @@
-function toggleMenu(){
-    document.getElementById("navigation").classList.toggle("open");
-    document.getElementById("navbutton").classList.toggle("open");
-}
+const hambutton = document.querySelector('.hamBtn');
+const mainnav = document.querySelector('.menu')
 
-const x = document.getElementById("navbutton");
-x.onclick = toggleMenu;
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-function toggleBanner(){
-    document.getElementById("banner").classList.toggle("open");
-}
-
-if (d.getDay() == 1) {
-    toggleBanner();
-}
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};

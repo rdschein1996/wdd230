@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rob Schein's WDD 230 Assignments">
     <link rel="stylesheet" href="../chamber/css/normalize.css">
-    <link rel="stylesheet" href="../chamber/css/small.css">
+    <link rel="stylesheet" href="../chamber/css/base.css">
     <link rel="stylesheet" href="../chamber/css/medium.css">
     <link rel="stylesheet" href="../chamber/css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
@@ -26,23 +26,24 @@
             <a href="index.html"><img class="logo" src="../images/logo.jpg " alt= "chamber logo" width="50"></a>
 
             <p class="commerceTitle">Olathe Chamber of Commerce</p>
-
-            <button id="hamBtn"><span>&#9776;</span><span class="close">X</span></button>
-            <ul id="menu">
-                <li><a class="homebtn" href="index.html">Home</a></li>
+            
+            
+            <ul class="menu">
+                <li><a class="hamBtn" href="#">Menu</a></li>
                 <li><a href="../chamber/discover.html">Discover</a></li>
-                <li><a href="./directory.html">Directory</a></li>
-                <li><a href="./join.html">Join</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+                <li><a href="../chamber/join.html">Join</a></li>
+                <li><a href="../chamber/contact.html">Contact</a></li>
             </ul>
         </nav>
+        
         <div class="socials">
             <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon" width="24"
                     height="24"></a>
             <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
                     width="24" height="24"></a>
         </div>
-        <p id="today">todays date</p>
+        <div id="today"></div>
     </header>
     <br>
 
@@ -54,7 +55,7 @@
                     <img class="heroImg" src="../images/wdd230-org.jpg" alt="chamber conversation" />
                 </picture>
                 <div class="joinBtn">
-                    <a class="heroBtn" href="#">Join the chamber</a>
+                    <a class="heroBtn" href="/chamber/join.html">Join the chamber</a>
                 </div>
             </div>
             <div id="events">
@@ -81,35 +82,12 @@
                     cillum dolore eu fugiat nulla pariatur.</p>
             </div>
             <div id="spotlights">
-                <div id="spotlight1">
-                    <h2> Thankful Transport</h2>
-                    <img src="#" alt="company logo">
-                    <p><em>"We get it there for you"</em></p>
-                    <hr style="width:90%;text-align:center;">
-                    <p>hello@thankfultransport.com</p>
-                    <p>+999-9999-9999 Website</p>
-                </div>
-                <div id="spotlight2">
-                    <h2>Code Primea</h2>
-                    <img src="#" alt="company logo">
-                    <p><em>An after school coding instructional program.</em></p>
-                    <hr style="width:90%;text-align:center;">
-                    <p>contact@codeprimea.com</p>
-                    <p>+999-9999-9999 Website</p>
-                </div>
-                <div id="spotlight3">
-                    <h2>Build a Treefort</h2>
-                    <img src="#" alt="company logo">
-                    <p><em>Over 100 plans</em></p>
-                    <hr style="width:90%;text-align:center;">
-                    <p>builda@treefort.com</p>
-                    <p>+999-9999-9999 Website</p>
-                </div>
+                
 
             </div>
             <div id="join">
                 <div class="joinUsBtn">
-                    <a class="join" href="#">Join Us!</a>
+                    <a class="join" href="join.html">Join Us!</a>
                 </div>
                 <p>Discover how to join the chamber of commerce and how it wil benfit your organization! </p>
             </div>
@@ -130,5 +108,6 @@
 <script src="js/responsive_menu.js"></script>
 <script src="js/windchill.js"></script>
 <script src="../js/date.js"></script>
+<script src="js/spotlights.js"></script>
 
 </html>

@@ -1,14 +1,15 @@
-let d = new Date();
-let year = d.getFullYear();
+
+let today1 = new Date()
+let year = today1.getFullYear();
 let fulldate = `${year}`;
 document.querySelector("#year").textContent = fulldate;
 
 let lastmod = new Date(document.lastModified)
 document.querySelector("#updated").textContent = lastmod;
 
-let today = new Date()
+
 let todaystr = "";
-switch (today.getDay()) {
+switch (today1.getDay()) {
     case 0:
         todaystr = "Sunday";
         break;
@@ -33,7 +34,7 @@ switch (today.getDay()) {
 }
 let month = "";
 
-switch (today.getMonth()) {
+switch (today1.getMonth()) {
     case 0:
         month = "January";
         break;
@@ -72,5 +73,5 @@ switch (today.getMonth()) {
         break;
 }
 
-let todayconcat = todaystr + ", " + today.getDate() + " " + month + " " + year;
+let todayconcat = todaystr + ", " + today1.getDate() + " " + month + " " + year;
 document.querySelector("#today").textContent = todayconcat;
