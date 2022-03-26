@@ -1,0 +1,195 @@
+html {
+    background-color: #f3e7e7;
+}
+
+header {
+    height: 150px;
+    width: 98%;
+    border-top-left-radius: 0.35em;
+    border-top-right-radius: 0.35em;
+}
+
+main section {
+    margin: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0 2px 8px 2px #FADBB8;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+}
+
+header,
+main,
+footer {
+    margin: 1rem auto;
+    padding: .5rem;
+    max-width: 98%;
+}
+
+header,
+footer,
+footer a {
+    text-align: center;
+    background-color: #FADBB8;
+    color: black;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: -.5rem auto;
+    background-size: 100% 100%;
+    
+}
+
+nav {
+    background-color: #FADBB8;
+    width: 98%;
+    max-width: 98%;
+    margin: auto;
+    height: 75px;
+}
+
+nav ul {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: black;
+    display: inline-block;
+    padding: 0.75rem;
+    transition: 0.35s;
+    height: 75px;
+}
+
+nav ul li a:hover {
+    background-color: #e3e3e3;
+    color: black;
+}
+
+.persona1 {
+    width: 300px;
+    height: 300px;
+}
+
+.persona2 {
+    width: 500px;
+    height: 300px;
+}
+
+.personas {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.personas li {
+    font-size: 18px;
+}
+
+.audience {
+    line-height: 1.6;
+
+}
+
+.audience h2 {
+    text-align: center;
+}
+
+table {
+    width: fit-content;
+    margin: auto;
+}
+
+table th {
+    background-color: #FADBB8;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border: solid 0.5px black;
+}
+
+table td {
+    font-family: 'Crimson Text', serif;
+}
+#main-background-color {
+    background-color: #f3e7e7;
+}
+#header-footer-background-color {
+    background-color: #FADBB8;
+}
+
+#nav-background-color {
+    background-color: #FADBB8;
+}
+
+#nav-text-color {
+    background-color: black;
+}
+
+#hover-text-color {
+    background-color: #e3e3e3;
+}
+
+#heading-text-color {
+    background-color: black;
+}
+
+#p-color {
+    background-color: black;
+}
+
+.site-colors {
+    text-align: center;
+}
+
+.typography {
+    text-align: center;
+}
+
+#typography-h1 {
+    background-color: black;
+}
+
+#typography-h2 {
+    background-color: black;
+}
+
+#typography-p {
+    background-color: black;
+}
+
+#typography-h3 {
+    background-color: #64C5BF;
+}
+
+#typography-nav {
+    background-color: #1a1817;
+
+}
+
+.wireframes {
+    display: grid;
+    grid-template-columns:repeat();
+    margin: auto;
+}
+
+.map {
+    text-align: center;
+}
