@@ -1,0 +1,439 @@
+@media (min-width: 60em) {
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-left: 3em;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-right: 3em;
+    }
+
+    .nav-left ul li {
+        display: inline-flex;
+        /* change state in small view */
+        padding: 1em;
+        margin: auto;
+        text-align: center;
+        font-size: 1.55em;
+        margin-right: 2em;
+    }
+
+    .nav-right ul li {
+        display: inline-flex;
+        /* change state in small view */
+        padding: 1em;
+        margin: auto;
+        text-align: center;
+        font-size: 1.55em;
+        margin-right: 2em;
+
+    }
+
+    header a {
+        color: rgb(0, 0, 0);
+        border: none;
+        text-decoration: none;
+    }
+
+    header a:hover {
+        background-color: #ececec;
+        transition: .5s;
+        font-size: 1.3em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: auto;
+        display: flex;
+    }
+
+    .logodiv {
+        width: 100%;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .socials-footer {
+        display: block;
+        grid-column: 3/5;
+        margin: auto;
+    }
+
+    .socials-footer img {
+        width: 30px;
+        height: 30px;
+        margin: auto;
+        margin-left: .5em;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    .inn-services {
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .locations {
+        display: none;
+    }
+
+    .services {
+        grid-column: 2/3;
+        margin: auto;
+        margin-top: -.1em;
+        height: 100%;
+        width: 100%;
+        border-left: black;
+        border-left-style: double;
+        border-left-width: .5em;
+        border-right: black;
+        border-right-style: double;
+        border-right-width: .5em;
+        
+    }
+    .amenities {
+        background-color: #FADBB8;
+        width: 80%;
+    }
+
+    .services ul li {
+        margin: auto;
+        width: 50%;
+        text-align: left;
+    }
+
+    .locations-large {
+        display: block;
+        grid-column: 3/3;
+        margin: auto;
+        margin-top: -.1em;
+        background-color: #FADBB8;
+        width: 80%;
+        height: 100%;
+    }
+
+    .amenities ul li {
+        margin: auto;
+        text-align: left;
+    }
+
+    .reservation-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr .5fr;
+        margin-top: 2em;
+    }
+
+    .reservation-form fieldset {
+        border: none;
+        font-size: 1.5em;
+        padding: 2em;
+    }
+
+    .reservation-form legend {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #5e5f5f;
+        text-align: center;
+    }
+
+    .reservation-form label.info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        font-size: 1em;
+        max-width: 100%;
+    }
+
+    .reservation-form fieldset:nth-child(0),
+    .reservation-form fieldset:nth-child(1) .reservation-form fieldset:nth-child(2) {
+        margin: .75em 0 1em 0;
+    }
+
+    .reservation-form label.info input,
+    .reservation-form label.info textarea {
+        border-radius: .25em;
+        padding: 5px 10px;
+    }
+
+    .reservation-form label.info input:required {
+        border-left: 8px #a78054 solid;
+    }
+
+    .reservation-form label.info textarea {
+        height: 3rem;
+        margin-bottom: .5em;
+    }
+
+    .reservation-form label.level {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .reservation-form label.level input {
+        width: 1em;
+        height: 1em;
+    }
+
+    .reserve-input {
+        background-color: #a78054;
+    }
+
+    .submitBtn {
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        font-size: 2em;
+        font-weight: 600;
+        border-radius: 20px;
+        background-color: #a78054;
+        border: none;
+        grid-column: 2/3;
+
+        text-align: center;
+    }
+
+    .reservationForm h1 {
+        text-align: center;
+    }
+
+    #contact-form {
+
+        padding: 2em;
+        border-radius: 8px;
+
+        width: 40%;
+        max-width: 40%;
+        height: 30em;
+
+        justify-content: center;
+    }
+
+    #contact-form legend {
+        font-size: larger;
+        text-align: center;
+    }
+
+    #contact-form fieldset {
+        border: none;
+        font-size: 1.5em;
+        
+    }
+
+    #contact {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    #contact-info {
+        width: 30%;
+        max-width: 30%;
+        margin-left: 15em;
+        justify-content: center;
+    }
+
+    #contact-form label.info input,
+    #contact-form label.info textarea {
+        border-radius: .25em;
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        width: 100%;
+    }
+
+    #contact-form label.info input:required {
+        border-left: 8px #a78054 solid;
+    }
+
+    #contact-form label.info textarea {
+        height: 3rem;
+        margin-bottom: .5em;
+    }
+
+    #contact-form label.level {
+        display: block;
+        padding: 15px 0;
+    }
+
+    #contact-form label.level input {
+        width: 1em;
+        height: 1em;
+    }
+
+    #contact-form input.submitBtn {
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        font-size: 2em;
+        font-weight: 600;
+        border-radius: 20px;
+        background-color: #a78054;
+        border: none;
+        display: block;
+
+    }
+
+    .locations-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+    .location-grid div h2 {
+        text-align: center;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards img {
+        height: 30em;
+        width: 40em;
+    }
+
+    .slidesImg img {
+        width: 30em;
+        height: 25em;
+    }
+
+    .slidesImg2 img {
+        width: 30em;
+        height: 25em;
+    }
+
+    #services-amenities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+
+    }
+
+    #standard {
+        margin: auto;
+        background-color: #FADBB8;
+        padding: 1em;
+
+    }
+
+    #specialized {
+        margin: auto;
+        background-color: #FADBB8;
+        padding: 1em;
+
+    }
+
+    .weather-section {
+        height: fit-content;
+        width: 80%;
+        border-radius: .5em;
+        margin: auto;
+    }
+.currentWeather {
+    background-color: #FADBB8;
+    margin: auto;
+}
+    .forecastWeather {
+width: 100%;
+        flex-direction: column;
+        grid-column: 2/3;
+        margin: auto;
+        background-color: #FADBB8;
+    }
+
+    .forecastWeather h2 {
+        font-size: 1em;
+        margin: 32px 1em 1em 1em;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.one,
+    div.two,
+    div.three {
+        display: flex;
+        width: 17em;
+        margin: auto;
+    }
+
+    .threedayforecast img {
+        width: 80px;
+        height: 80px;
+        border-left: 2px double #000000;
+        border-right: 2px double #000000;
+        padding: 15px 5px;
+    }
+
+    .threedayforecast p {
+        margin: 40px 1em 0 1em;
+    }
+
+    .home2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+        grid-auto-flow: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hq-map {
+        grid-column: 3/3;
+        
+    }
+
+    .homeImg {
+        display: none;
+    }
+
+    .home-locations {
+        display: none;
+    }
+    #map {
+        height: 300px;
+        width: 80%;
+        margin: auto;
+      }
+
+      .additional-services {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          background-color: #FADBB8;
+          
+          width:80%;
+          margin: auto;
+          margin-top:1.5em;
+          padding: 1em;
+      }
+
+      .fulltime {
+          width: 90%;
+      }
+      .wedding {
+          width: 90%;
+      }
+}

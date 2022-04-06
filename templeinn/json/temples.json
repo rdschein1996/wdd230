@@ -1,0 +1,53 @@
+{
+    "temples": [
+      {
+        "name": "Nauvoo",
+        "address": "50 N Wells St. Nauvoo, IL 62354",
+        "phone": "217-453-6252",
+        "email": "nauv2-off@churchofjesuschrist.org",
+        "services": "Clothing Rental",
+        "history": "Announced: 4 April 1999 Groundbreaking: 24 October 1999 Dedicated: 27 June 2002",
+        "ordinance_schedule": "By Appointment",
+        "session_schedule": "By Appointment",
+        "closure_schedule": "28 March 2022 - 23 May 2022, 26 September 2022 - 24 October 2022, 24 November 2022, 24 December 2022, 31 December 2022",
+        "imageurl":"https://assets.ldscdn.org/e6/49/e649267e9549f7693e589079317d987069b799da/nauvoo_temple_lds.jpg"
+      },
+      {
+        "name": "Winter Quarters",
+        "address": "8283 N 34th St. Omaha, NE 68112",
+        "phone": "402-453-3406",
+        "email": "nauv2-off@churchofjesuschrist.org",
+        "services": "N/A",
+        "history": "Announced: 14 June 1999 Groundbreaking: 28 November 1999 Dedicated: 22 April 2001",
+        "ordinance_schedule": "By Appointment",
+        "session_schedule": "By Appointment",
+        "closure_schedule": "2 April 2022, 29 August 2022 - 26 September 2022, 1 October 2022, 24 November 2022, 24 December 2022, 31 December 2022",
+        "imageurl":"https://assets.ldscdn.org/f0/65/f065b89d6ab929f0dd1621d62e7f0b16f8ec23a3/winter_quarters_temple_lds.jpeg"
+      },
+      {
+        "name": "Kansas City",
+        "address": "7001 Searcy Creek Pkwy. Kansas City, MO 64119",
+        "phone": "816-413-1430",
+        "email": "nauv2-off@churchofjesuschrist.org",
+        "services": "Clothing Rental",
+        "history": "Announced: 4 October 2008 Groundbreaking: 8 May 2010 Dedicated: 6 May 2012",
+        "ordinance_schedule": "By Appointment",
+        "session_schedule": "By Appointment",
+        "closure_schedule": "2 April 2022, 8 April 2022 - 25 April 2022, 21 June 2022 (Limited Operations), 19 September 2022 - 19 December 2022, 24 December 2022",
+        "imageurl":"https://assets.ldscdn.org/62/5e/625e0629b625e2596ad1c160a45f567f207560cc/kansas_city_temple_lds.jpg"
+      },
+      {
+        "name": "St. Louis",
+        "address": "12555 N Outer Forty Dr. St. Louis, MO 63141-8620",
+        "phone": "314-514-1122",
+        "email": "nauv2-off@churchofjesuschrist.org",
+        "services": "Clothing Rental, Distribution Center Nearby",
+        "history": "Announced: 29 December 1990 Groundbreaking: 30 October 1993 Dedicated: 1 June 1997",
+        "ordinance_schedule": "By Appointment",
+        "session_schedule": "By Appointment",
+        "closure_schedule": "21 March 2022 - 4 April 2022, 29 August 2022 - 5 December 2022, 24 December 2022, 31 December 2022",
+        "imageurl":"https://assets.ldscdn.org/aa/08/aa083372753647155b1bf1aaeb46145cf0ffe26a/st_louis_temple_lds.jpeg"
+      }
+        
+    ]
+  }

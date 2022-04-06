@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Inn & Suites Home">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+
+
+    <title>Temple Inn & Suites</title>
+</head>
+
+<body>
+    <div id="alerts"></div>
+    <button id="closeAlert">Click here to close alert</button>
+    <header>
+        <div class="nav-left">
+            <ul>
+                <li><a href="./temple.html">Temples</a></li>
+                <li><a href="./services.html">Services</a></li>
+            </ul>
+        </div>
+        <div class="logodiv">
+            <a href="index.html"><img class="logo" src="./images/logo.png" alt="inn logo"></a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a class="hamBtn" href="#">Menu</a></li>
+                <li><a href="./temple.html">Locations</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./reservation.html">Temples</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+
+        </nav>
+
+        <div class="socials">
+            <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon"
+                    width="24" height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+
+    </header>
+    <br>
+
+    <main>
+        <article>
+            <h2>Welcome to the Temple Inn & Suites! </h2>
+            <p>Our goal is to help you attend the temple and we understand that it
+                can be difficult to find the time and means to travel to the temple.
+                This is especially true for those who plan longer trips, live further away, have a wedding to celebrate,
+                or have a large group. We want to help you feel comfortable and
+                able to attend the temple for whatever purpose you have. Our Inn & Suites are tailored to help!</p><br>
+            We provide you with a home away from home while you attend the temple.
+            We love our church history as well and want to share that with those who share our interest. Our
+            locations allow us to share pieces of history as we also put together
+            historic church site tours for groups and families that are interested. We welcome you to our home and
+            hope your stay is an enjoyable one that allows you to appreciate
+            the temple!
+            </p>
+        </article>
+        <div class="inn-services">
+            <div class="amenities">
+                <h2>Amenities</h2>
+                <ul>
+                    <li>Hotel Breakfast</li>
+                    <li>Wi-Fi</li>
+                    <li>Indoor Pool</li>
+                    <li>Fitness Center</li>
+                    <li>Family History Center</li>
+                    <li>Changing Rooms</li>
+                    <li>Reception Hall</li>
+                    <li>Long-Term Suites</li>
+                </ul>
+            </div>
+            <div class="services">
+                <h2>Services</h2>
+                <ul>
+                    <li>Shuttles</li>
+                    <li>Children's Playroom</li>
+                    <li>Historic Site Tours</li>
+                    <li>Room Service</li>
+                    <li>Family History Assistance</li>
+                </ul>
+            </div>
+            <div class="locations-large">
+                <h2>Locations</h2>
+                <ul>
+                    <li>Nauvoo, IL</li>
+                    <li>Winters Quarters (Omaha), NE</li>
+                    <li>Kansas City, MO</li>
+                    <li>St. Louis, MO</li>
+                </ul>
+            </div>
+        </div>
+        <div class="home2">
+            <div class="weather-section">
+                <div class="currentWeather">
+                    <h3 class="weather">Current conditions</h3>
+                    <img class="wIcon" src="#" alt="">
+                    <p class="deg"><span class="temp"></span>&#176;F</p>
+                    <p class="iconDesc"></p>
+                    <hr style="width:90%;text-align:center;">
+                    <p class="humid">Humidity: <span class="humidity"></span></p>
+                </div>
+            </div>
+            <div class="forecastWeather">
+                <h2>Three-day forecast</h2>
+                <div class="threedayforecast"></div>
+            </div>
+            <div class="hq-map">
+<div id="map"></div>
+            </div>
+            <div class="homeImg">
+                <img src="./images/homeimg.jpg" alt="LDS Temple">
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Rob Schein | Kansas | <a href="./index.html">Temple Inn & Suites</a></p>
+        <div class="socials-footer">
+            <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon"
+                    width="24" height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+        <p class="lastupdated">Last Updated: </p><span id="updated">
+        </span>
+        <script src="./js/date.js"></script>
+    </footer>
+</body>
+<script src="./js/responsive.js"></script>
+<script src="./js/weather.js"></script>
+<script src="./js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIs0GSDDyZM18vOjaOOLPsYn9DD5z7mw8&callback=createMap"></script>
+
+
+</html>

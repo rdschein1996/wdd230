@@ -1,0 +1,35 @@
+@media (min-width: 37.5em) {
+
+    
+.logo {
+    display: flex;
+}
+nav {
+    background-color: #FADBB8;
+    grid-row: 1/2;
+    margin: auto;
+    
+    margin-top: 3em;
+    height: fit-content;
+}
+.reservation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4px;
+}
+section {
+    margin: 0;
+}
+.cards img {
+    height: 15em;
+    width: 10em;
+}
+.locations-large {
+    display: none;
+}
+}

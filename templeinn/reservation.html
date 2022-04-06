@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Inn & Suites Home">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+
+
+    <title>Temple Inn & Suites</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-left">
+            <ul>
+                <li><a href="./temple.html">Temples</a></li>
+                <li><a href="./services.html">Services</a></li>
+            </ul>
+        </div>
+        <div class="logodiv">
+            <a href="index.html"><img class="logo" src="./images/logo.png" alt="inn logo"></a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a class="hamBtn" href="#">Menu</a></li>
+                <li><a href="./temple.html">Temples</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+
+        </nav>
+
+        <div class="socials">
+            <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon"
+                    width="24" height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+
+    </header>
+    <br>
+
+    <main>
+        <div class="reservationForm">
+            <h1>Submit a Reservation</h1>
+            <form class="reservation-form" method="get" action="./confirmation.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="info">First Name* <input type="text" name="fname" required></label>
+                    <label class="info">Last Name* <input type="text" name="lname" required></label>
+                    <label class="info">Email* <input type="email" name="email" placeholder="myemail@gmail.com"
+                            required></label>
+                    <label class="info">Phone* <input type="tel" name="phone" placeholder="12356654321"
+                            required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <label class="info">Desired Check-In Date* <input type="text" name="check-in" required></label>
+                    <label class="info">Desired Check-Out Date* <input type="text" name="check-out" required></label>
+                    <label class="info">Location*<input list="location-list" name="location" required>
+                        <datalist id="location-list">
+                            <option value="Nauvoo, IL">
+                            <option value="Winter Quarters, NE">
+                            <option value="Kansas City, MO">
+                            <option value="St. Louis, MO">
+                        </datalist></label>
+                    <label class="info">Number of Rooms*<input list="rooms-count" name="rooms" required>
+                        <datalist id="rooms-count">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4+ (specify additional accomodation info)">
+                        </datalist></label>
+                    <input type="hidden" name="datetime" id="todayDate">
+                </fieldset>
+                <fieldset>
+                    <legend>Special Accomodation (if-applicable)</legend>
+                    <label class="level"><input type="radio" name="level" value="bronze"> Temple Missionary</label>
+                    <label class="level"><input type="radio" name="level" value="silver"> Temple Worker</label>
+                    <label class="level"><input type="radio" name="level" value="gold"> Youth Trip</label>
+                    <label class="info">Additional Information<textarea name="additional-info"
+                        placeholder="Specific accomodations / requests / info"></textarea></label>
+                </fieldset>
+                
+                <label class="submitBtn"><input class="reserve-input" type="submit" value="Confirm"></label>
+                
+            </form>
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Rob Schein | Kansas | <a href="./index.html">Temple Inn & Suites</a></p>
+        <div class="socials-footer">
+            <a href="http://www.facebook.com"><img class="facebook" src="../images/fb.webp" alt="facebook icon"
+                    width="24" height="24"></a>
+            <a href="http://www.twitter.com"><img class="twitter" src="../images/twitter.webp" alt="twitter icon"
+                    width="24" height="24"></a>
+        </div>
+        <p class="lastupdated">Last Updated: </p><span id="updated">
+        </span>
+        <script src="./js/date.js"></script>
+    </footer>
+</body>
+<script src="./js/responsive.js"></script>
+
+</html>
